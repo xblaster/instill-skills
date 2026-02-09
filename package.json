@@ -1,0 +1,23 @@
+{
+  "name": "instill-skills",
+  "version": "1.0.0",
+  "description": "A curated collection of coding standards and best practices for use with Instill",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/instill-skills.git"
+  },
+  "keywords": [
+    "instill",
+    "skills",
+    "coding-standards",
+    "best-practices",
+    "ai-assistant"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/instill-skills/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/instill-skills#readme"
+}
