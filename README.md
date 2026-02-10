@@ -1,5 +1,9 @@
 # 🧠 Instill Skills: Cognitive Modules for AI Agents
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](package.json)
+[![Instill](https://img.shields.io/badge/Powered%20by-Instill-blueviolet)](https://github.com/xblaster/instill)
+
 > **Turn your AI assistant into a proactive Senior Engineer.**
 
 This repository is not just a collection of "docs"—it is a library of **Active Cognitive Skills** designed to give your AI agent (Cursor, Windsurf, Claude Code, Gemini) the ability to *reason, plan, and execute* complex engineering tasks autonomously.
@@ -15,6 +19,10 @@ When you install these skills, you aren't just giving your AI context; you are g
   * *The Guardian.* Safely audits and remediates vulnerabilities. It doesn't just "report" issues—it uses a state machine to verify that updates don't break your build before committing them.
 * **[Security Audit](skills/security-audit.md)** (`security-audit`)
   * *The White Hat.* Performs comprehensive security scans using tools like Semgrep or Snyk, creating prioritized remediation plans and ensuring your codebase is fortress-ready.
+
+### 🔍 Diagnostic & Debugging
+* **[Debug Stacktrace Resolver](skills/debug-stacktrace-resolver.md)** (`debug-stacktrace-resolver`)
+  * *The Fixer.* Analyze, research, and resolve complex software errors and stack traces. It performs environment discovery, structured web research, and proposes deterministic fixes after verifying context.
 
 ### 🏗️ Architectural Intelligence
 * **[Architect Vision Audit](skills/architect-vision-audit.md)** (`architect-vision-audit`)
@@ -38,6 +46,35 @@ When you install these skills, you aren't just giving your AI context; you are g
 
 ---
 
+## 🧩 Skill Architecture
+
+Each skill in this repository follows a structured, state-machine approach to ensure reliability and safety:
+
+1.  **Input Handling & Resolution**: Context discovery and proactive ambiguity resolution (asking questions instead of hallucinating).
+2.  **Pre-flight & Discovery**: Silent verification of the local environment, dependencies, and tool availability.
+3.  **Execution**: Running deterministic commands (preferring `--json` output) to gather ground-truth data.
+4.  **Reporting & UX**: Structured Markdown output with clear summaries and actionable next steps.
+5.  **Guardrails**: Explicit safety constraints to protect your codebase, secrets, and data integrity.
+
+---
+
+## 📂 Project Structure
+
+```text
+skills/
+├── architect-vision-audit.md       # Architectural alignment & CTO-level oversight
+├── auto-doc-manager.md             # Documentation synchronization
+├── debug-stacktrace-resolver.md    # Error analysis & resolution
+├── dependency-sentinel.md          # Vulnerability auditing & remediation
+├── generate-dockerfile.md          # Tech stack detection & Dockerization
+├── git-master.md                   # Advanced Git workflows & PR management
+├── oss-community-catalyst.md       # Community engagement & OSS growth
+├── security-audit.md               # Comprehensive security scanning
+└── tech-debt-loan-officer.md       # Technical debt & complexity analysis
+```
+
+---
+
 ## 📦 Installation
 
 Integrate these skills into your workflow in seconds using [Instill](https://github.com/xblaster/instill):
@@ -53,7 +90,7 @@ instill install dependency-sentinel git-master
 ## 🤝 Contributing
 
 Got an idea for a new "Cognitive Module"? 
-1. Create a markdown file in `skills/`.
+1. Create a markdown file in `skills/`. (Use our [Template Skill](.instill/library/template-skill.md) as a starting point).
 2. Define the `input`, `steps` (the "thought process"), and `output`.
 3. Open a PR!
 
