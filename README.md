@@ -32,6 +32,10 @@ When you install these skills, you aren't just giving your AI context; you are g
 * **[Auto-Doc Manager](skills/auto-doc-manager.md)** (`auto-doc-manager`)
   * *The Librarian.* Banish "usage rot" forever. This skill automatically synchronizes your code changes with your documentation, ensuring your READMEs, JSDoc, and OpenAPI specs are always up to date.
 
+### 🚀 Growth & Community
+* **[OSS Community Catalyst](skills/oss-community-catalyst.md)** (`oss-community-catalyst`)
+  * *The Evangelist.* Audit your repo for "social proof" and generate high-engagement technical content. It identifies friction in your onboarding flow and creates a launch plan to amplify your project's reach.
+
 ---
 
 ## 📦 Installation
