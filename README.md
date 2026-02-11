@@ -12,6 +12,18 @@ When you install these skills, you aren't just giving your AI context; you are g
 
 ---
 
+## ⚡ Quick Start
+
+```bash
+# 1. Add this repo as a remote source
+instill sources add https://github.com/xblaster/instill-skills
+
+# 2. Install the skills you need
+instill install dependency-sentinel git-master
+```
+
+---
+
 ## 🚀 Available Skills
 
 ### 🛡️ Security & Stability
@@ -40,7 +52,12 @@ When you install these skills, you aren't just giving your AI context; you are g
 * **[Auto-Doc Manager](skills/auto-doc-manager.md)** (`auto-doc-manager`)
   * *The Librarian.* Banish "usage rot" forever. This skill automatically synchronizes your code changes with your documentation, ensuring your READMEs, JSDoc, and OpenAPI specs are always up to date.
 
+### 🧠 Strategic & Creative Intelligence
+* **[Improbable Recruiter](skills/improbable-recruiter.md)** (`improbable-recruiter`)
+  * *The Talent Scout.* Identifies the "Black Swan" hire. It analyzes your codebase's "Technical DNA" to generate a job description for an atypical profile (e.g., an Ethnobotanist for a database project) who would bring disruptive innovation.
+
 ### 🚀 Growth & Community
+
 * **[OSS Community Catalyst](skills/oss-community-catalyst.md)** (`oss-community-catalyst`)
   * *The Evangelist.* Audit your repo for "social proof" and generate high-engagement technical content. It identifies friction in your onboarding flow and creates a launch plan to amplify your project's reach.
 
@@ -68,6 +85,7 @@ skills/
 ├── dependency-sentinel.md          # Vulnerability auditing & remediation
 ├── generate-dockerfile.md          # Tech stack detection & Dockerization
 ├── git-master.md                   # Advanced Git workflows & PR management
+├── improbable-recruiter.md         # Strategic hiring & cognitive diversity analysis
 ├── oss-community-catalyst.md       # Community engagement & OSS growth
 ├── security-audit.md               # Comprehensive security scanning
 └── tech-debt-loan-officer.md       # Technical debt & complexity analysis
@@ -75,17 +93,7 @@ skills/
 
 ---
 
-## 📦 Installation
 
-Integrate these skills into your workflow in seconds using [Instill](https://github.com/xblaster/instill):
-
-```bash
-# 1. Add this repo as a remote source
-instill sources add https://github.com/xblaster/instill-skills
-
-# 2. Install the skills you need
-instill install dependency-sentinel git-master
-```
 
 ## 🤝 Contributing
 
