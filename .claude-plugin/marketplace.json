@@ -1,0 +1,56 @@
+{
+  "name": "instill-skills",
+  "description": "A curated collection of agentic skills for coding workflows, DevOps, security, and OSS community management.",
+  "skills": [
+    {
+      "name": "git-master",
+      "description": "Advanced Git workflow orchestrator for Conventional Commits, Pull Requests, and conflict resolution.",
+      "path": "skills/git-master/SKILL.md"
+    },
+    {
+      "name": "auto-doc-manager",
+      "description": "Synchronize and generate technical documentation (JSDoc, Docstrings, README, OpenAPI) from source code.",
+      "path": "skills/auto-doc-manager/SKILL.md"
+    },
+    {
+      "name": "tech-debt-loan-officer",
+      "description": "Analyzes code changes and PRs as financial liabilities, evaluating technical debt risk.",
+      "path": "skills/tech-debt-loan-officer/SKILL.md"
+    },
+    {
+      "name": "security-audit-tool",
+      "description": "Comprehensive security audit using automated scanning tools (Semgrep, Snyk, Trivy).",
+      "path": "skills/security-audit/SKILL.md"
+    },
+    {
+      "name": "dependency-sentinel",
+      "description": "Safely audit and remediate dependency vulnerabilities (npm/pip) with zero breaking changes.",
+      "path": "skills/dependency-sentinel/SKILL.md"
+    },
+    {
+      "name": "generate-dockerfile",
+      "description": "Scans the project and generates a production-ready, multi-stage Dockerfile.",
+      "path": "skills/generate-dockerfile/SKILL.md"
+    },
+    {
+      "name": "architect-vision-audit",
+      "description": "High-level architect audit for alignment between project vision and codebase reality.",
+      "path": "skills/architect-vision-audit/SKILL.md"
+    },
+    {
+      "name": "debug-stacktrace-resolver",
+      "description": "Analyze and resolve complex software errors and stack traces with structured web research.",
+      "path": "skills/debug-stacktrace-resolver/SKILL.md"
+    },
+    {
+      "name": "oss-community-catalyst",
+      "description": "Audit and amplify Open Source project health, Markdown quality, and social engagement.",
+      "path": "skills/oss-community-catalyst/SKILL.md"
+    },
+    {
+      "name": "improbable-recruiter",
+      "description": "Identifies cognitive/technical voids in the codebase and generates atypical job descriptions.",
+      "path": "skills/improbable-recruiter/SKILL.md"
+    }
+  ]
+}
